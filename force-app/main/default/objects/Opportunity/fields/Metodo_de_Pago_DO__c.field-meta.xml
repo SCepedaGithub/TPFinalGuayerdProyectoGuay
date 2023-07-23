@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Metodo_de_Pago_DO__c</fullName>
+    <externalId>false</externalId>
+    <label>Método de Pago DO</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Tarjeta de Crédito</fullName>
+                <default>false</default>
+                <label>Tarjeta de Crédito</label>
+            </value>
+            <value>
+                <fullName>Cheque</fullName>
+                <default>false</default>
+                <label>Cheque</label>
+            </value>
+            <value>
+                <fullName>Tarjeta de Débito</fullName>
+                <default>false</default>
+                <label>Tarjeta de Débito</label>
+            </value>
+            <value>
+                <fullName>Transferencia Electrónica de Fondo</fullName>
+                <default>false</default>
+                <label>Transferencia Electrónica de Fondo</label>
+            </value>
+            <value>
+                <fullName>Otro</fullName>
+                <default>false</default>
+                <label>Otro</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Moneda_DO__c</fullName>
+    <externalId>false</externalId>
+    <label>Moneda DO</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>USD - Dólar de EE.UU.</fullName>
+                <default>false</default>
+                <label>USD - Dólar de EE.UU.</label>
+            </value>
+            <value>
+                <fullName>$AR - Pesos Argentino</fullName>
+                <default>false</default>
+                <label>$AR - Pesos Argentino</label>
+            </value>
+            <value>
+                <fullName>$CL - Pesos Chilenos</fullName>
+                <default>false</default>
+                <label>$CL - Pesos Chilenos</label>
+            </value>
+            <value>
+                <fullName>$CO - Pesos Colombianos</fullName>
+                <default>false</default>
+                <label>$CO - Pesos Colombianos</label>
+            </value>
+            <value>
+                <fullName>$MX - Pesos Mexicanos</fullName>
+                <default>false</default>
+                <label>$MX - Pesos Mexicanos</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label></label>
+    <name>Divisa_de_la_Oportunidad__c</name>
+    <picklistValues>
+        <masterLabel>$AR - Pesos Argentinos</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>$CL - Pesos Chilenos</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>$CO - Pesos Colombianos</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>$MX - Pesos Mexicanos</masterLabel>
+        <translation></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>USD - Dólar de EE.UU.</masterLabel>
+        <translation></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>npsp__Recurring_Donation__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <deprecated>false</deprecated>
+    <description>The Recurring Donation this Allocation is attributed to. NPSP automatically allocates all new Opportunities associated with the Recurring Donation in the same way.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>La donación recurrente a la que se atribuye esta asignación. NPSP asigna automáticamente todas las nuevas oportunidades asociadas con la donación recurrente de la misma manera.</inlineHelpText>
+    <label>Recurring Donation</label>
+    <referenceTo>npe03__Recurring_Donation__c</referenceTo>
+    <relationshipLabel>GAU Allocations</relationshipLabel>
+    <relationshipName>Allocations</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>npo02__OppsClosedLastYear__c</fullName>
+    <defaultValue>0</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Do not manually update. Updated by automatic processes. See excluded Record Types and FY/CY in Household Settings.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>El número total de oportunidades ganadas con un importe superior a cero relacionadas con esta cuenta, cerradas en el año o el año fiscal anterior (consulte Configuración de Hogar).</inlineHelpText>
+    <label>Number of Gifts Last Year</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

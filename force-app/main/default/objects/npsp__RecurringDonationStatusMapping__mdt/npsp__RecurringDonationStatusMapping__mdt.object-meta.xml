@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Recurring Donation Status to State Mapping</description>
+    <label>Asignación de estado de Donación recurre</label>
+    <pluralLabel>Asignaciones de estados de Donaciones recurrentes</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

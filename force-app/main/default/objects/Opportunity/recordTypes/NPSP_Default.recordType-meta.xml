@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NPSP_Default</fullName>
+    <active>true</active>
+    <businessProcess>NPSP_Default</businessProcess>
+    <label>NPSP Default</label>
+    <picklistValues>
+        <picklist>DeliveryInstallationStatus__c</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yet to begin</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Divisa_de_la_Oportunidad__c</picklist>
+        <values>
+            <fullName>%24AR - Pesos Argentinos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%24CL - Pesos Chilenos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%24CO - Pesos Colombianos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%24MX - Pesos Mexicanos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USD - Dólar de EE%2EUU%2E</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Estatus_de_Transaccion_DO__c</picklist>
+        <values>
+            <fullName>Aceptado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Procesando</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rechazado</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ForecastCategoryName</picklist>
+        <values>
+            <fullName>Best Case</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pipeline</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LeadSource</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Purchased List</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Metodo_de_Pago_DO__c</picklist>
+        <values>
+            <fullName>Cheque</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tarjeta de Crédito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tarjeta de Débito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transferencia Electrónica de Fondo</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Moneda_DO__c</picklist>
+        <values>
+            <fullName>%24AR - Pesos Argentino</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%24CL - Pesos Chilenos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%24CO - Pesos Colombianos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>%24MX - Pesos Mexicanos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USD - Dólar de EE%2EUU%2E</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pais_de_la_Donacion__c</picklist>
+        <values>
+            <fullName>AR - Argentina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CL - Chile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CO - Colombia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MX - México</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Provincia__c</picklist>
+        <values>
+            <fullName>Buenos Aires</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Catamarca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chaco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chubut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ciudad Autónoma de Buenos Aires</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corrientes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Córdoba</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entre Ríos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Formosa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jujuy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>La Pampa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>La Rioja</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mendoza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Misiones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Neuquén</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Río Negro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Juan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Luis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santa Cruz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santa Fe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santiago del Estero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tierra del Fuego%2C Antártida e Islas del Atlántico Sur</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tucumán</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_de_Tarjeta_DO__c</picklist>
+        <values>
+            <fullName>American Express</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mastercard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mastercard Débito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tarjeta MercadoPago</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visa Débito</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Trabajo_en_una_organizacion_social__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sí</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Transaccion_Gateway__c</picklist>
+        <values>
+            <fullName>MercadoPago</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PayPal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npe01__Member_Level__c</picklist>
+        <values>
+            <fullName>Bronze</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Silver</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npe01__Membership_Origin__c</picklist>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reacquire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npo02__systemHouseholdContactRoleProcessor__c</picklist>
+        <values>
+            <fullName>All Opportunities</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>No Opportunities</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npsp__Acknowledgment_Status__c</picklist>
+        <values>
+            <fullName>Acknowledged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Do Not Acknowledge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email Acknowledgment Not Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email Acknowledgment Now</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>To Be Acknowledged</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npsp__Gift_Strategy__c</picklist>
+        <values>
+            <fullName>New Donor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renewal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Upgrade</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npsp__In_Kind_Type__c</picklist>
+        <values>
+            <fullName>Goods</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Services</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npsp__Matching_Gift_Status__c</picklist>
+        <values>
+            <fullName>Potential</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submitted</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npsp__Notification_Preference__c</picklist>
+        <values>
+            <fullName>Do Not Notify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Postal Mail</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npsp__Tribute_Notification_Status__c</picklist>
+        <values>
+            <fullName>Notified</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>To Be Notified</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>npsp__Tribute_Type__c</picklist>
+        <values>
+            <fullName>Honor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Memorial</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
